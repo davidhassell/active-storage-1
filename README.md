@@ -2,7 +2,10 @@
 Demonstration of possible active storage approach
 
 The demonstration in this repo uses a modified version of dask:
-https://github.com/davidhassell/dask/tree/active-storage
+https://github.com/davidhassell/dask/tree/active-storage. Code changes
+in the modified dask can be seen at
+https://github.com/davidhassell/dask/pull/1/files
+
 
 Make sure to install this modified version of dask and include it in
 your python path, for instance (ymmv)
@@ -12,9 +15,6 @@ $ cd
 $ TODO
 $ export PYTHONPATH=~/dask:$PYTHONPATH
 ```
-
-Code changes in the modified dask are describes at
-https://github.com/davidhassell/dask/pull/1/files
 
 `cfdm` is also required to handle the reading of the netCDF file:
 
