@@ -1,14 +1,16 @@
 # active-storage-1
 Demonstration of possible active storage approach
 
-The demonstration in this repo uses a modified version of dask.
+The demonstration in this repo uses a modified version of dask:
+https://github.com/davidhassell/dask/tree/active-storage
 
 Make sure to install this modified version of dask and include it in
 your python path, for instance (ymmv)
 
-
 ```bash
-$ export PYTHONPATH=:$PYTHONPATH
+$ cd
+$ TODO
+$ export PYTHONPATH=~/dask:$PYTHONPATH
 ```
 
 Code changes in the modified dask are describes at
@@ -19,9 +21,6 @@ https://github.com/davidhassell/dask/pull/1/files
 ```bash
 $ pip install cfdm
 ```
-
-Code changes in the modified dask:
-https://github.com/davidhassell/dask/pull/1/files
 
 To run the demo:
 
