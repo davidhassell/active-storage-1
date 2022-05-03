@@ -128,6 +128,8 @@ if __name__ == "__main__":
             f"PYTHONPATH={os.environ.get('PYTHONPATH', '')}"
         )
 
+    # Lazy read of the netCDF file (using the same API as used by
+    # cf-python)
     f = NetCDFArray(filename="file.nc", ncvar="q", shape=(5, 8), dtype=np.dtype(float))
 
     # In-memory version of 'f'
