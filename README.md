@@ -15,7 +15,7 @@
 
 ```bash
 $ cd active-storage-1
-$ python active_storage_demo.py
+$ python demo.py
 
 Active max(a) = 0.003
 Normal max(a) = 0.003
