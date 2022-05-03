@@ -1,14 +1,10 @@
 ### Demonstration of possible active storage approach
 
-----
-
 * The demonstration in this repo uses a modified version of dask:
   https://github.com/davidhassell/dask/tree/active-storage.
 
 * Code changes in the modified dask can be seen at
   https://github.com/davidhassell/dask/pull/1/files.
-
-----
 
 * The fulls results of running `demo.py` are shown here, and the dask
   graph visualisations are in the repo.
@@ -51,7 +47,7 @@ active_sum_max+a.png
 normal_sum_max+a.png
 ```
 
-#### Instalation
+### Instalation
 
 To install the modified version of dask:
 
