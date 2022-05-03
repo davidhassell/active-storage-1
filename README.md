@@ -3,14 +3,15 @@
 ----
 
 The demonstration in this repo uses a modified version of dask:
-https://github.com/davidhassell/dask/tree/active-storage. Code changes
-in the modified dask can be seen at
+https://github.com/davidhassell/dask/tree/active-storage.
+
+Code changes in the modified dask can be seen at
 https://github.com/davidhassell/dask/pull/1/files.
 
 ----
 
-The fulls results of running `active_storage_demo.py` are shown here, and
-the dask graph visualisationsa are in the repo.
+The fulls results of running `active_storage_demo.py` are shown here,
+and the dask graph visualisations are in the repo.
 
 ```bash
 $ cd active-storage-1
