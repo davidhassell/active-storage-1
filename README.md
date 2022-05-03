@@ -1,28 +1,17 @@
 # active-storage-1
-Demonstration of possible active storage approach
+### Demonstration of possible active storage approach
+
+----
 
 The demonstration in this repo uses a modified version of dask:
 https://github.com/davidhassell/dask/tree/active-storage. Code changes
 in the modified dask can be seen at
-https://github.com/davidhassell/dask/pull/1/files
+https://github.com/davidhassell/dask/pull/1/files.
 
+----
 
-Make sure to install this modified version of dask and include it in
-your python path, for instance (ymmv)
-
-```bash
-$ cd
-$ TODO
-$ export PYTHONPATH=~/dask:$PYTHONPATH
-```
-
-`cfdm` is also required to handle the reading of the netCDF file:
-
-```bash
-$ pip install cfdm
-```
-
-To run the demo:
+The fulls results of running `active_storage_demo.py` are shown here, and
+the dask graph visualisationsa are in the repo.
 
 ```bash
 $ cd active-storage-1
@@ -62,4 +51,16 @@ active_sum_max+a.png
 normal_sum_max+a.png
 ```
 
-The graph visualisations are also in the repo.
+#### Instalation
+
+To install the modified version of dask:
+
+```bash
+TODO 
+```
+
+`cfdm` is also required to handle the reading of the netCDF file:
+
+```bash
+$ pip install cfdm
+```
