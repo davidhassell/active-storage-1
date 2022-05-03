@@ -6,10 +6,10 @@
 * Code changes in the modified dask can be seen at
   https://github.com/davidhassell/dask/pull/1/files.
 
-* The fulls results of running `demo.py` are shown here, and the dask
+* The full results of running `demo.py` are shown here, and the dask
   graph visualisations are in the repo.
 
-```bash
+```console
 $ cd active-storage-1
 $ python demo.py
 
@@ -47,7 +47,7 @@ active_sum_max+a.png
 normal_sum_max+a.png
 ```
 
-### Instalation
+### Installation
 
 To install the modified version of dask:
 
