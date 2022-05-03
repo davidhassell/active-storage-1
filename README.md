@@ -13,8 +13,8 @@
 $ cd active-storage-1
 $ python demo.py
 
-Active max(a) = 0.003
-Normal max(a) = 0.003
+Active max(a) = 0.146
+Normal max(a) = 0.146
 
 Active mean(a) = 0.046075
 Normal mean(a) = 0.046075
