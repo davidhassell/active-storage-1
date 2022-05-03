@@ -10,8 +10,8 @@
 
 ----
 
-* The fulls results of running `active_storage_demo.py` are shown
-  here, and the dask graph visualisations are in the repo.
+* The fulls results of running `demo.py` are shown here, and the dask
+  graph visualisations are in the repo.
 
 ```bash
 $ cd active-storage-1
