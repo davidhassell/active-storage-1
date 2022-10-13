@@ -67,5 +67,6 @@ $ pip install git+ssh://git@github.com/davidhassell/dask.git@active-storage
 Successfully installed dask-2022.4.1+38.geef967a8
 ```
 
-* Install the modified version of `activestorage`: See
-  https://github.com/valeriupredoi/PyActiveStorage for details.```
+* Install `activestorage`: See
+  https://github.com/valeriupredoi/PyActiveStorage for details.
+
