@@ -1,14 +1,14 @@
 ### Client-side demonstration of active storage
 
-* The demonstration in this repo uses a modified version of dask:
-  https://github.com/davidhassell/dask/tree/active-storage.
+* The demonstration in this repository uses a modified version of
+  dask: https://github.com/davidhassell/dask/tree/active-storage
 
 * Code changes in the modified dask can be seen at
-  https://github.com/davidhassell/dask/pull/1/files (66 nelines of
+  https://github.com/davidhassell/dask/pull/1/files (66 newlines of
   code).
 
 * The full results of running `demo.py` are shown here, and the dask
-  graph visualisations are in the repo.
+  graph visualisations are in the repository.
 
 ```console
 $ cd active-storage-1
@@ -37,7 +37,7 @@ Normal max(a) + a = [[0.153 0.18  0.149 0.16  0.164 0.183 0.17  0.175]
 Active sum(max(a) + a) = 7.683
 Normal sum(max(a) + a) = 7.683
 
-$ # List dask graph visualations of active and normal operations
+$ # List of dask graph visualisations of active and normal operations
 $ ls -1rt *.png
 active_max.png
 normal_max.png
@@ -59,7 +59,7 @@ Install `cfdm` (to handle the normal reading of netCDF files):
 $ pip install cfdm
 ```
 
-Install the modified version of dask:
+Install the modified version of `dask`:
 
 ```console
 $ pip install git+ssh://git@github.com/davidhassell/dask.git@active-storage
