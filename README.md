@@ -53,16 +53,19 @@ normal_sum_max+a.png
 
 ### Installation
 
-Install `cfdm` (to handle the normal reading of netCDF files):
+* Install `cfdm` (to handle the normal reading of netCDF files):
 
 ```console
 $ pip install cfdm
 ```
 
-Install the modified version of `dask`:
+* Install the modified version of `dask`:
 
 ```console
 $ pip install git+ssh://git@github.com/davidhassell/dask.git@active-storage
 ...
 Successfully installed dask-2022.4.1+38.geef967a8
 ```
+
+* Install the modified version of `activestorage`: See
+  https://github.com/valeriupredoi/PyActiveStorage for details.```
